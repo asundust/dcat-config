@@ -22,6 +22,10 @@ composer require asundust/dcat-config
 - 可配置参数缓存的时长
 - 可配置自动备份配置信息（考虑到Dcat-Admin卸载扩展时会删除对应表）
 
+### 使用
+
+- 非常简单，和Laravel原生使用一模一样，`config('key_string')`快捷函数调用即可
+
 ### 本地化
 
 - 在`resources/lang/zh_CN`目录(可能是`zh-CN`)下`menu.php`文件里添加下述代码
