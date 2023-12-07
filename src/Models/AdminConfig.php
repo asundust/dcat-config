@@ -27,9 +27,9 @@ class AdminConfig extends Model
 {
     protected $fillable = ['config_category', 'config_name', 'config_value', 'desc', 'status', 'sort_id'];
 
-    const DEFAULT_TTL = 86400;
-    const STATES_TRUE = 1;
-    const STATES = [
+    public const DEFAULT_TTL = 86400;
+    public const STATES_TRUE = 1;
+    public const STATES = [
         0 => '禁用',
         1 => '启用',
     ];
